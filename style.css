@@ -19,7 +19,15 @@
 
 .react-phone-number-input__phone
 {
+	border: 1px solid #cccccc;
+	padding: 19px;
+	border-radius: 4px;
 	font-size : inherit;
+}
+
+.account input.rrui__input.rrui__input-field.react-phone-number-input__phone {
+	border-radius: 0;
+	padding: 0;
 }
 
 .react-phone-number-input__country:not(.rrui__select--expanded)
@@ -46,31 +54,13 @@
 .react-phone-number-input__phone,
 .react-phone-number-input__country .rrui__select__selected--autocomplete
 {
-	border        : none;
-	border-bottom : 1px solid #C5D2E0;
 	transition    : border 0.1s;
-}
-
-.react-phone-number-input__phone:focus
-{
-	border-bottom-color: #0093C4;
 }
 
 .react-phone-number-input .rrui__select__arrow
 {
 	margin-top  : 0.3em;
 	margin-left : 0.3em;
-}
-
-.react-phone-number-input .rrui__select__option
-{
-	display     : flex;
-	align-items : center;
-}
-
-.react-phone-number-input .rrui__select__option-icon
-{
-	margin-bottom : 0.1em;
 }
 
 .react-phone-number-input__icon

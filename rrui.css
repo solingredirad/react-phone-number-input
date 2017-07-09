@@ -15,6 +15,13 @@
 	height : calc(0.3rem * 6);
 }
 
+.account .rrui__input:not(.rrui__input--multiline),
+.account .rrui__input-label
+{
+	height : inherit;
+}
+
+
 /* For native `<select/>` in Safari */
 .rrui__select__native
 {
@@ -251,7 +258,6 @@
 
 .rrui__select__selected
 {
-	border-bottom : 1px solid #C5D2E0;
 	transition    : border 0.1s;
 
 	/* Because Chrome adds `text-align: center` for all buttons */
